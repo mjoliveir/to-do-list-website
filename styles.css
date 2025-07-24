@@ -1,5 +1,6 @@
 :root{
-
+    --main-color: rgb(254, 239, 217);
+    --lat-color: rgb(79, 70, 59);
 }
 
 *{
@@ -37,8 +38,7 @@ body{
 
 .c1-add-tasks{
     color: rgb(79, 70, 59);
-    border: solid 2px rgb(79, 70, 59);
-    border: solid 2px;
+    border: 2px rgb(79, 70, 59);
     border-radius: 6px;
     padding: 0.5em;
     display: block;
@@ -48,8 +48,7 @@ body{
 
 .c1-search-tasks , .c1-done-tasks , .c1-view-calendar{
     color: rgb(79, 70, 59);
-    border: solid 2px rgb(79, 70, 59);
-    border: solid 2px;
+    border: 2px rgb(79, 70, 59);
     border-radius: 6px;
     padding: 0.5em;
     display: block;
