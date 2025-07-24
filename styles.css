@@ -1,0 +1,97 @@
+:root{
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1, h2 {
+    font-weight: 600;
+    color: rgb(79, 70, 59);
+}
+
+body{
+    background-color: rgb(254, 239, 217);
+    color: rgb(79, 70, 59);
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    height: 100vh;;
+}
+
+.c1-lateral{
+    background-color: rgb(197, 188, 175);
+    height: 100%;
+    gap: 15px;
+}
+
+.c1-welcome{
+    margin-top: 2em ;
+    text-align: center;
+}
+
+.c1-add-tasks{
+    color: rgb(79, 70, 59);
+    border: solid 2px rgb(79, 70, 59);
+    border: solid 2px;
+    border-radius: 6px;
+    padding: 0.5em;
+    display: block;
+    margin-top: 2em;
+    text-decoration: none;
+}
+
+.c1-search-tasks , .c1-done-tasks , .c1-view-calendar{
+    color: rgb(79, 70, 59);
+    border: solid 2px rgb(79, 70, 59);
+    border: solid 2px;
+    border-radius: 6px;
+    padding: 0.5em;
+    display: block;
+    text-decoration: none;
+}
+
+.c1-credit{
+    padding-top:25em ;
+    align-items: end;
+}
+
+.c1-lateral-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+.c1-caixa{
+    display: flex;
+    flex-direction: column;
+    margin: 9em;
+    gap: 20px;
+}
+
+.c1-titulo{
+    font-size: 3em;
+}
+
+.c1c-add-tasks{
+    color: rgb(79, 70, 59);
+    border: solid 2px rgb(208, 186, 159);
+    border-radius: 6px;
+    padding: 0.5em;
+    display: block;
+    text-decoration: none;
+}
+
+.c1-margin-input-from-text{
+    margin-right: 1em;
+}
+
+:hover.c1-add-tasks, :hover.c1-search-tasks, :hover.c1-done-tasks, :hover.c1-view-calendar{
+    background-color: rgb(157, 147, 137);
+    transition: 1s;
+}
