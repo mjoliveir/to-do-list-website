@@ -11,12 +11,12 @@
 
 h1, h2 {
     font-weight: 600;
-    color: rgb(79, 70, 59);
+    color: /*rgb(79, 70, 59)*/rgb(254, 239, 217);
 }
 
 body{
-    background-color:rgb(254, 239, 217);
-    color:rgb(79, 70, 59);
+    background-color: rgb(79, 70, 59)/*rgb(254, 239, 217)*/;
+    color:/* rgb(79, 70, 59)*/rgb(254, 239, 217);
 }
 
 .container{
@@ -26,7 +26,7 @@ body{
 }
 
 .c1-lateral{
-    background-color:rgb(197, 188, 175);
+    background-color:/* rgb(197, 188, 175)*/rgb(75, 57, 35);
     height: 100%;
     gap: 15px;
 }
@@ -37,7 +37,7 @@ body{
 }
 
 .c1-add-tasks{
-    color:rgb(79, 70, 59);
+    color:/* rgb(79, 70, 59)*/rgb(254, 239, 217);;
     border-radius: 6px;
     padding: 0.5em;
     display: block;
@@ -46,7 +46,7 @@ body{
 }
 
 .c1-search-tasks , .c1-done-tasks , .c1-view-calendar{
-    color:rgb(79, 70, 59);
+    color:/* rgb(79, 70, 59)*/rgb(254, 239, 217);
     border-radius: 6px;
     padding: 0.5em;
     display: block;
@@ -75,8 +75,8 @@ body{
 }
 
 .c1c-add-tasks{
-    color: rgb(79, 70, 59);
-    border: solid 2px rgb(208, 186, 159);
+    color: /*rgb(79, 70, 59)*/rgb(254, 239, 217);
+    border: solid 2px /*rgb(208, 186, 159)*/rgb(254, 239, 217);
     border-radius: 6px;
     padding: 0.5em;
     display: block;
@@ -98,11 +98,11 @@ body{
 }
 
 .c1-theme-bot{
-    border: solid 2px rgb(79, 70, 59);
+    border: solid 2px rgb(254, 239, 217);
     border-radius: 10px;
     padding: 5px;
     text-decoration: none;
-    color:rgb(79, 70, 59);
+    color:/* rgb(79, 70, 59)*/rgb(254, 239, 217);
 }
 
 .c1-caixa-inferior{
