@@ -22,7 +22,7 @@ body{
 .container{
     display: grid;
     grid-template-columns: 20% 80%;
-    height: 100vh;;
+    height: 100vh;
 }
 
 .c1-lateral{
@@ -69,7 +69,7 @@ body{
 .c1-caixa{
     display: flex;
     flex-direction: column;
-    margin: 9em;
+    margin:;
     gap: 20px;
 }
 
@@ -93,4 +93,24 @@ body{
 :hover.c1-add-tasks, :hover.c1-search-tasks, :hover.c1-done-tasks, :hover.c1-view-calendar{
     background-color: rgb(157, 147, 137);
     transition: 1s;
+}
+
+.c1-theme{
+    text-align: right;
+    padding: 40px;
+}
+
+.c1-theme-bot{
+    border: solid 2px rgb(208, 186, 159);
+    border-radius: 10px;
+    padding: 5px;
+    text-decoration: none;
+    color: rgb(79, 70, 59);
+}
+
+.c1-caixa-inferior{
+    margin: 5em;
+    display: flex;
+    flex-direction: column;
+    gap: 20px
 }
