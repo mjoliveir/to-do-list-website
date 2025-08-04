@@ -1,6 +1,7 @@
 :root{
     --main-color: rgb(254, 239, 217);
     --sec-color: rgb(79, 70, 59);
+    --hover: rgb(157, 147, 137);
 }
 
 *{
