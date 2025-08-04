@@ -6,6 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+    <script src="app.js"></script>
 <body>
     <header></header>
     <main>
@@ -14,7 +15,7 @@
                 <h1 class="c1-welcome">Bem vindo @user</h1>
                 <div class="c1-lateral-content">
                     <!-- <div> -->
-                        <button class="c1-add-tasks">Adicionar Tarefa</button>
+                        <button onclick="createTask()" class="c1-add-tasks">Adicionar Tarefa</button>
                         <!-- <a class="c1-add-tasks" href="">Adicionar tarefa</a> -->
                     <!-- </div> -->
                     <!-- <div> -->
@@ -34,11 +35,12 @@
             </div>
             <div class="c1-caixa">
                 <div class="c1-theme">
-                <a class="c1-theme-bot" href="dark-index.html">change theme - dark</a>
-            </div>
+                    <button onclick="switchTheme()" class="c1-theme-bot">change theme - dark</button>
+                    <!-- <a class="c1-theme-bot" href="dark-index.html">change theme - dark</a> -->
+                </div>
                 <div class="c1-caixa-inferior">
                     <h2 class="c1-titulo">Oque faremos hoje?<i class="fa-solid fa-house"></i></h2>
-                <div>
+                    <div>
                         <label><input class="c1-margin-input-from-text" type="checkbox">Tomar café da manhã</label>
                     <div>
                         <label><input class="c1-margin-input-from-text" type="checkbox">Varrer a casa</label>
@@ -50,11 +52,13 @@
                         <label><input class="c1-margin-input-from-text" type="checkbox">limpar o banheiro</label>
                     </div>
                 </div>
-                    <button class="c1c-add-tasks">Adicionar tarefas</button>
-                </div>
+                <!-- <input class="c1c-add-tasks" type="text"> -->
+                 <div class="newTasks" id="newTasks"></div>
+                 <button onclick="createTask()" input class="c1c-add-tasks" id="taskButton">Adicionar tarefas</button>
             </div>
         </section>
     </main>
-    <footer></footer>
+<footer></footer>
+</script>
 </body>
 </html>
