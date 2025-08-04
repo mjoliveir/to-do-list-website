@@ -124,3 +124,12 @@ body{
     flex-direction: column;
     gap: 20px
 }
+
+.newTasks{
+    display: flex;
+    flex-direction: column;
+}
+
+.hidden{
+    
+}
