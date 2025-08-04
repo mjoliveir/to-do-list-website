@@ -31,6 +31,10 @@ body{
     background-color:var(--lat-color);
     height: 100%;
     gap: 15px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 .c1-welcome{
@@ -39,8 +43,10 @@ body{
 }
 
 .c1-add-tasks{
+    width: 15em;
     color:var(--sec-color);
     border-radius: 6px;
+    border: solid 2px var(--hover-color);
     padding: 0.5em;
     display: block;
     margin-top: 2em;
@@ -48,11 +54,15 @@ body{
 }
 
 .c1-search-tasks , .c1-done-tasks , .c1-view-calendar{
+    width: 15em;
     color:var(--sec-color);
     border-radius: 6px;
+    border: solid 2px var(--hover-color);
     padding: 0.5em;
     display: block;
+    margin-top: 0.1em;
     text-decoration: none;
+    
 }
 
 .c1-credit{
@@ -61,7 +71,7 @@ body{
 }
 
 .c1-lateral-content{
-    display: flex;
+    display: block;
     flex-direction: column;
     gap: 10px;
     text-align: center;
