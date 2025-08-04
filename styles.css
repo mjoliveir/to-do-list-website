@@ -1,6 +1,8 @@
 :root{
     --main-color: rgb(254, 239, 217);
     --sec-color: rgb(79, 70, 59);
+    --lat-color: rgb(197, 188, 175);
+    --hover-color: rgb(157, 147, 137);
 }
 
 *{
@@ -11,12 +13,12 @@
 
 h1, h2 {
     font-weight: 600;
-    color: rgb(79, 70, 59);
+    color: var(--sec-color);
 }
 
 body{
-    background-color:rgb(254, 239, 217);
-    color:rgb(79, 70, 59);
+    background-color:var(--main-color);
+    color: var(--sec-color)
 }
 
 .container{
@@ -26,7 +28,7 @@ body{
 }
 
 .c1-lateral{
-    background-color:rgb(197, 188, 175);
+    background-color:var(--lat-color);
     height: 100%;
     gap: 15px;
 }
@@ -37,7 +39,7 @@ body{
 }
 
 .c1-add-tasks{
-    color:rgb(79, 70, 59);
+    color:var(--sec-color);
     border-radius: 6px;
     padding: 0.5em;
     display: block;
@@ -46,7 +48,7 @@ body{
 }
 
 .c1-search-tasks , .c1-done-tasks , .c1-view-calendar{
-    color:rgb(79, 70, 59);
+    color:var(--sec-color);
     border-radius: 6px;
     padding: 0.5em;
     display: block;
@@ -75,12 +77,13 @@ body{
 }
 
 .c1c-add-tasks{
-    color: rgb(79, 70, 59);
-    border: solid 2px rgb(208, 186, 159);
+    color: var(--sec-color);
+    border: solid 2px var(--hover-color);
     border-radius: 6px;
     padding: 0.5em;
     display: block;
     text-decoration: none;
+    text-align: left;
 }
 
 .c1-margin-input-from-text{
@@ -88,7 +91,7 @@ body{
 }
 
 :hover.c1-add-tasks, :hover.c1-search-tasks, :hover.c1-done-tasks, :hover.c1-view-calendar{
-    background-color: rgb(157, 147, 137);
+    background-color: var(--hover-color);
     transition: 1s;
 }
 
@@ -98,11 +101,11 @@ body{
 }
 
 .c1-theme-bot{
-    border: solid 2px rgb(79, 70, 59);
+    border: solid 2px var(--sec-color);
     border-radius: 10px;
     padding: 5px;
     text-decoration: none;
-    color:rgb(79, 70, 59);
+    color:var(--sec-color)
 }
 
 .c1-caixa-inferior{
