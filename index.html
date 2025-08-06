@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
-    <script src="app.js"></script>
 <body>
     <header></header>
     <main>
@@ -35,30 +35,45 @@
             </div>
             <div class="c1-caixa">
                 <div class="c1-theme">
-                    <button onclick="switchTheme()" class="c1-theme-bot">change theme - dark</button>
+                    <button onclick="switchTheme()" class="c1-theme-bot"><i class="fa-solid fa-moon hidden"></i>
+                    <i class="fa-solid fa-sun hidden"></i></button>
                     <!-- <a class="c1-theme-bot" href="dark-index.html">change theme - dark</a> -->
                 </div>
+                                    <h2 class="c1-titulo">Oque faremos hoje?</h2>   
                 <div class="c1-caixa-inferior">
-                    <h2 class="c1-titulo">Oque faremos hoje?<i class="fa-solid fa-house"></i></h2>
-                    <div>
+
+                    <section class="teste">
                         <label><input class="c1-margin-input-from-text" type="checkbox">Tomar café da manhã</label>
-                    <div>
+                        <button class="edit-button"><i class="fa-solid fa-gear"></i></button>
+                    </section>
+                    <div class="teste">
                         <label><input class="c1-margin-input-from-text" type="checkbox">Varrer a casa</label>
+                        <button class="edit-button"><i class="fa-solid fa-gear"></i></button>
                     </div>
-                    <div>
+                    <div class="teste">
                         <label><input class="c1-margin-input-from-text" type="checkbox">Passear com o cachorro</label>
+                        <button class="edit-button"><i class="fa-solid fa-gear"></i></button>
                     </div>
-                    <div>
+                    <div class="teste">
                         <label><input class="c1-margin-input-from-text" type="checkbox">limpar o banheiro</label>
+                        <button class="edit-button"><i class="fa-solid fa-gear"></i></button>
                     </div>
                 </div>
                 <!-- <input class="c1c-add-tasks" type="text"> -->
-                 <div class="newTasks" id="newTasks"></div>
-                 <button onclick="createTask()" input class="c1c-add-tasks" id="taskButton">Adicionar tarefas</button>
+                 <div class="newTasks" id="newTasks">
+                 <button onclick="createTask()" class="c1c-add-tasks" id="taskButton">Adicionar tarefas</button>
+                 </div>
             </div>
         </section>
     </main>
 <footer></footer>
-</script>
+<script src="app.js"></script>
 </body>
 </html>
+
+
+<!-- transition
+    cursor pointer
+    position
+    transition
+    transformscale -->
