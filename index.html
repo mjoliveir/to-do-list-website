@@ -14,22 +14,10 @@
             <div class="c1-lateral">
                 <h1 class="c1-welcome">Bem vindo @user</h1>
                 <div class="c1-lateral-content">
-                    <!-- <div> -->
-                        <button onclick="createTask()" class="c1-add-tasks">Adicionar Tarefa</button>
-                        <!-- <a class="c1-add-tasks" href="">Adicionar tarefa</a> -->
-                    <!-- </div> -->
-                    <!-- <div> -->
-                        <button class="c1-view-calendar">Verificar Calendario</button>
-                        <!-- <a class="c1-view-calendar" href="">Verificar Calendario</a> -->
-                    <!-- </div> -->
-                    <!-- <div> -->
-                        <button class="c1-search-tasks">Buscar tarefa</button>
-                        <!-- <a class="c1-search-tasks" href="">Buscar tarefa</a> -->
-                    <!-- </div> -->
-                    <!-- <div> -->
-                        <button class="c1-done-tasks">Tarefas concluidas</button>
-                        <!-- <a class="c1-done-tasks" href="">Tarefas concluidas</a> -->
-                    <!-- </div> -->
+                    <button onclick="createTask()" class="c1-add-tasks">Adicionar Tarefa</button>
+                    <button class="c1-view-calendar">Verificar Calendario</button>
+                    <button class="c1-search-tasks">Buscar tarefa</button>
+                    <button class="c1-done-tasks">Tarefas concluidas</button>
                     <p class="c1-credit">dev by @mjoliveir</p>
                 </div>
             </div>
@@ -37,31 +25,14 @@
                 <div class="c1-theme">
                     <button onclick="switchTheme()" class="c1-theme-bot"><i class="fa-solid fa-moon hidden"></i>
                     <i class="fa-solid fa-sun hidden"></i></button>
-                    <!-- <a class="c1-theme-bot" href="dark-index.html">change theme - dark</a> -->
                 </div>
-                                    <h2 class="c1-titulo">Oque faremos hoje?</h2>   
-                <div class="c1-caixa-inferior">
-
-                    <section class="teste">
-                        <label><input class="c1-margin-input-from-text" type="checkbox">Tomar café da manhã</label>
-                        <button class="edit-button"><i class="fa-solid fa-gear"></i></button>
-                    </section>
-                    <div class="teste">
-                        <label><input class="c1-margin-input-from-text" type="checkbox">Varrer a casa</label>
-                        <button class="edit-button"><i class="fa-solid fa-gear"></i></button>
-                    </div>
-                    <div class="teste">
-                        <label><input class="c1-margin-input-from-text" type="checkbox">Passear com o cachorro</label>
-                        <button class="edit-button"><i class="fa-solid fa-gear"></i></button>
-                    </div>
-                    <div class="teste">
-                        <label><input class="c1-margin-input-from-text" type="checkbox">limpar o banheiro</label>
-                        <button class="edit-button"><i class="fa-solid fa-gear"></i></button>
-                    </div>
-                </div>
-                <!-- <input class="c1c-add-tasks" type="text"> -->
+                <h2 class="c1-titulo">Oque faremos hoje?</h2>   
+                <ul id="caixadetasks" class="c1-caixa-inferior">
+                    <li id="task_list">
+                    </li>
+                </ul>
                  <div class="newTasks" id="newTasks">
-                 <button onclick="createTask()" class="c1c-add-tasks" id="taskButton">Adicionar tarefas</button>
+                    <input id="c1-add-tasks-input" class="c1c-add-tasks" placeholder="Digite sua nova tarefa" type="text">
                  </div>
             </div>
         </section>
