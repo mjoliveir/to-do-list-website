@@ -84,6 +84,8 @@ body{
 
 .c1-titulo{
     font-size: 3em;
+    text-align: center;
+    margin-top: 1.5em;
 }
 
 .c1c-add-tasks{
@@ -94,6 +96,7 @@ body{
     display: block;
     text-decoration: none;
     text-align: left;
+    margin: 0 15em 0 15em;
 }
 
 .c1-margin-input-from-text{
@@ -116,20 +119,34 @@ body{
     padding: 5px;
     text-decoration: none;
     color:var(--sec-color)
+
 }
 
 .c1-caixa-inferior{
-    margin: 5em;
+    margin: 0em 3em 0em 3em;
     display: flex;
     flex-direction: column;
-    gap: 20px
+    gap: 20px;
+    list-style: none;
+
 }
 
 .newTasks{
     display: flex;
-    flex-direction: column;
+    flex-direction: column;;
+    margin: 0 2.6em 0 2.6em;
 }
 
-.hidden{
-    
+.teste{
+    align-items: start;
+    display: flex;
+    margin: 0 12em 0 12em;
+    justify-content: space-between;
+    border: 1px rgb(0, 0, 0) solid;
+    padding: 10px;
+    border-radius: 10px;
+    background-color:rgb(230, 215, 197);
 }
+
+
+/*////////////////////////////////////////////////////////////////////*/
