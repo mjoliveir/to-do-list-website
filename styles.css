@@ -138,15 +138,40 @@ body{
 }
 
 .teste{
-    align-items: start;
     display: flex;
     margin: 0 12em 0 12em;
-    justify-content: space-between;
     border: 1px rgb(0, 0, 0) solid;
     padding: 10px;
     border-radius: 10px;
     background-color:rgb(230, 215, 197);
+    justify-content: space-between;
 }
 
+.tarefaConcluida {
+text-decoration-line: line-through;
+}
 
+.taskBTN {
+    display: flex;
+    gap: 6px;;
+}
+
+.taskBTN button{
+    border-radius: 90000%;
+    padding: 3px 6px 3px 6px;
+    cursor: pointer;
+    
+}
+
+:hover.buttonRemove{
+    background-color: var(--hover-color);
+}
+
+:hover.buttonDone{
+    background-color: var(--hover-color);
+}
+
+.buttonDonePress{
+    background-color: var(--hover-color);
+}
 /*////////////////////////////////////////////////////////////////////*/
